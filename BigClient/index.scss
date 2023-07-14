@@ -1,0 +1,44 @@
+:global {
+  .big-client-container {
+    .date-text {
+      background-color: #ffffff;
+      width: 100vw;
+      max-width: 640px;
+      min-height: 35px;
+      text-align: center;
+      align-content: center;
+      line-height: 35px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tab-bar {
+      margin-bottom: 10px;
+    }
+    .table-view {
+      margin-left: 10px;
+      margin-right: 10px;
+      height: calc(100vh - 120px);
+      max-height: calc(100vh - 120px);
+      border-radius: 8px;
+      padding: 5px 0px 5px 0px;
+      font-size: 12px;
+    }
+    .tip {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      align-items: center;
+      justify-content: center;
+      .img {
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+  .modal-title {
+    color: #fe981e !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+}
